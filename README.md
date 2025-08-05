@@ -2,10 +2,17 @@
 
 This repository is dedicated to managing all external plugins for the main gameserver. It ensures that the server setup remains consistent and automated across all developers and deployments.
 
+---
+
+> **⚠️ WARNING: Project Under Development**
+> This project structure is currently in active development. While we strive for consistency, some features or scripts may not be fully functional yet. We appreciate your patience and welcome any contributions to help us improve the system.
+
+---
+
 This repository **does not contain any plugin JAR files directly**. Instead, it contains two files that our setup script uses to fetch the plugins:
 
--   `plugins-repos.txt`
--   `plugins-downloads.txt`
+- `plugins-repos.txt`
+- `plugins-downloads.txt`
 
 ### `plugins-repos.txt`
 
@@ -16,8 +23,8 @@ When the setup script runs, it will automatically clone each of these repositori
 **Example:**
 ```
 
-[https://github.com/PlaceholderMC/MyOpenSourcePlugin](https://www.google.com/search?q=https://github.com/PlaceholderMC/MyOpenSourcePlugin)
-[https://github.com/AnotherDev/EssentialPlugin](https://www.google.com/search?q=https://github.com/AnotherDev/EssentialPlugin)
+[https://github.com/PlaceholderMC/MyOpenSourcePlugin](https://github.com/PlaceholderMC/MyOpenSourcePlugin)
+[https://github.com/AnotherDev/EssentialPlugin](https://github.com/AnotherDev/EssentialPlugin)
 
 ```
 
@@ -32,8 +39,8 @@ The setup script will use `wget` to automatically download each of these files a
 **Example:**
 ```
 
-[https://example.com/downloads/MyPremiumPlugin.jar](https://www.google.com/search?q=https://example.com/downloads/MyPremiumPlugin.jar)
-[https://another-site.net/releases/SomePlugin.jar](https://www.google.com/search?q=https://another-site.net/releases/SomePlugin.jar)
+[https://example.com/downloads/MyPremiumPlugin.jar](https://example.com/downloads/MyPremiumPlugin.jar)
+[https://another-site.net/releases/SomePlugin.jar](https://another-site.net/releases/SomePlugin.jar)
 
 ```
 
