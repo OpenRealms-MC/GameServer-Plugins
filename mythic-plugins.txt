@@ -1,2 +1,2 @@
 https://mythiccraft.io/downloads/modelengine4/free/ModelEngine-4.0.8.jar
-https://dev.bukkit.org/projects/mythicmobs/files/6727551/download
+https://mediafilez.forgecdn.net/files/6727/551/MythicMobs-5.9.5.jar
