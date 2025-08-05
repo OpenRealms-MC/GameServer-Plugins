@@ -23,8 +23,8 @@ When the setup script runs, it will automatically clone each of these repositori
 **Example:**
 ```
 
-[https://github.com/PlaceholderMC/MyOpenSourcePlugin](https://github.com/PlaceholderMC/MyOpenSourcePlugin)
-[https://github.com/AnotherDev/EssentialPlugin](https://github.com/AnotherDev/EssentialPlugin)
+https://github.com/PlaceholderMC/MyOpenSourcePlugin
+https://github.com/AnotherDev/EssentialPlugin
 
 ```
 
@@ -39,8 +39,8 @@ The setup script will use `wget` to automatically download each of these files a
 **Example:**
 ```
 
-[https://example.com/downloads/MyPremiumPlugin.jar](https://example.com/downloads/MyPremiumPlugin.jar)
-[https://another-site.net/releases/SomePlugin.jar](https://another-site.net/releases/SomePlugin.jar)
+https://example.com/downloads/MyPremiumPlugin.jar
+https://another-site.net/releases/SomePlugin.jar
 
 ```
 
